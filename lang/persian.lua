@@ -19,25 +19,25 @@ function en.lang()-- in-table function
 			rdp = 1340,
 			},
         welcome = {--Welcome texts : leave any these words ({name})
-            text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
-	    query = 'Main Menu!',
+            text = '*خوش آمدید به ServersBot* {name}!\n*این بات، بات رسمیبرای * [IBotCompany](https://telegram.me/IBCorp) هست \nبرای کمک به گرفتن *VPS خوب* با هزینه پایین\nخواهشمندم *ثبت نام کنید* یا *وارد شوید*',
+	    query = 'منو اصلی!',
             keyboard = {
                 {
-                    {text = 'Register', callback_data = 'register'},
-                    {text = 'Login', callback_data = 'login'},
+                    {text = 'ثبت نام', callback_data = 'register'},
+                    {text = 'ورود', callback_data = 'login'},
                     },
                 {
-                    {text = 'About', callback_data = 'about'},
+                    {text = 'درباره', callback_data = 'about'},
                     },
                 },
             keyboard2 = {
                 {
-                    {text = 'About', callback_data = 'about'},
+                    {text = 'درباره', callback_data = 'about'},
                     },
                 },
         },
 		about = {
-			text = '[ServerProviderBot](t.me/serverproviderbot) Offers you *(VPS|RDP|Domains) for cheap prices*\nThe concept of this bot is that you collect credits by : \n*1- watching ads \n2- joining certain groups and channels for a peroid of time \n3- inviting users to the bot\n4- Buying credits for real money*\n*ServerProvider* counts server time by day and each plan has its own prices\n\n*This Bot Is Owned And Sponsored *[BY IBot Corporation](t.me/ibcorp) [Website](ibotcompany.ek)',
+			text = '[ServerProviderBot](t.me/serverproviderbot) پیشنهادهای شما *(VPS|RDP|Domains) برای هزینه های پایین*\nThe concept of this bot is that you collect credits by : \n*1- watching ads \n2- joining certain groups and channels for a peroid of time \n3- inviting users to the bot\n4- Buying credits for real money*\n*ServerProvider* counts server time by day and each plan has its own prices\n\n*This Bot Is Owned And Sponsored *[BY IBot Corporation](t.me/ibcorp) [Website](ibotcompany.ek)',
 			keyboard = {
 				{
 					{text = 'Website', url = 'www.ibotcompany.tk'},
